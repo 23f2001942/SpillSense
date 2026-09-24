@@ -1,6 +1,6 @@
-# WatchOutMilk
+# SpillSense
 
-A boiling-milk overflow indicator. A K-type thermocouple in the milk measures its temperature, and the device beeps and lights up LEDs as the milk heats, then sounds a continuous alarm just before it boils over.
+**Smart Milk Froth Monitor** — a boiling-milk overflow indicator. A K-type thermocouple in the milk measures its temperature, and the device beeps and lights up LEDs as the milk heats, then sounds a continuous alarm just before it boils over.
 
 I started this in October 2020, during the COVID-19 lockdown, when I was in 10th grade, because milk boiling over was a repeated problem at home. **Version 1** (Arduino Nano) is complete and was tested on real milk. **Version 2** (XIAO ESP32-C3, custom PCB, 3D-printed enclosure) is a work in progress.
 
@@ -9,7 +9,7 @@ I started this in October 2020, during the COVID-19 lockdown, when I was in 10th
 ## Repository structure
 
 ```
-WatchOutMilk/
+SpillSense/
 ├── Version 1/
 │   ├── Code/
 │   │   ├── Version1_Prototype/  # First prototype sketch (SH1106 OLED + 4 LEDs)
@@ -84,7 +84,7 @@ LEDs are only in the OLED and prototype sketches. **Note:** the prototype sketch
 
 ---
 
-## Version 2 — WatchOutMilk (2026) — In progress
+## Version 2 (2026) — In progress
 
 A redesign around the **Seeed XIAO ESP32-C3**, with built-in WiFi replacing Bluetooth.
 
@@ -97,4 +97,4 @@ A redesign around the **Seeed XIAO ESP32-C3**, with built-in WiFi replacing Blue
 ## License
 MIT. See [LICENSE](LICENSE).
 
-**Author:** Shamanthak Reddy Mallu · [Portfolio](https://shamanthak-reddy-mallu.vercel.app/) · [LinkedIn](https://linkedin.com/in/shamanthak)
+**Author:** Shamanthak Reddy Mallu · [Project page](https://shamanthak-reddy-mallu.vercel.app/projects/spillsense) · [Portfolio](https://shamanthak-reddy-mallu.vercel.app/) · [LinkedIn](https://linkedin.com/in/shamanthak)
